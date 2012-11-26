@@ -1,7 +1,7 @@
 DemoApp::Application.routes.draw do
-  get "user/name:string"
+  get "user/name"
 
-  get "user/email:string"
+  get "user/email"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
